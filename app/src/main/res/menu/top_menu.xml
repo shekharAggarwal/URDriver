@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/notification"
+        app:actionLayout="@layout/action_bar_icon"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/myswitch"
+        android:title="Online/Offline"
+        app:actionLayout="@layout/switch_layout"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_schedule"
+        android:icon="@drawable/ic_date_range_black_24dp"
+        android:title="@string/schedule" />
+
+    <item
+        android:id="@+id/navigation_myTrip"
+        android:icon="@drawable/ic_cab"
+        android:title="@string/trip" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/mapnew"
+        android:title="@string/map" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile_bottom"
+        android:title="@string/profile" />
+
+
+</menu>

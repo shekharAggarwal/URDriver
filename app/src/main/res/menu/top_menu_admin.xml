@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_cab_driver"
+        android:icon="@android:drawable/ic_secure"
+        android:title="@string/driver"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_user_data"
+        android:icon="@android:drawable/ic_secure"
+        android:title="@string/user"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_cancelled_cab"
+        android:icon="@android:drawable/ic_secure"
+        android:title="@string/cancelled_cab"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_change_password"
+        android:icon="@android:drawable/ic_secure"
+        android:title="@string/Change_Password"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+</menu>

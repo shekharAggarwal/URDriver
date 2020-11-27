@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1f000000</color>
+    <color name="colorPrimaryDark">#404040</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="cab_background">#eeeeee</color>
+    <color name="cab_background_dark">#C5C5C5</color>
+    <color name="dark_primary_text_color_87">#de000000</color>
+    <color name="dark_divider_color_12">#1f000000</color>
+    <color name="dark_divider_color_11">#16000000</color>
+    <color name="dark_secondary_text_color_54">#8a000000</color>
+    <color name="color_black_87">#de000000</color>
+    <color name="black">#000000</color>
+    <color name="color_black_54">#8a000000</color>
+    <color name="black_text">#363636</color>fdd835
+    <color name="yellow_back">#fdd835</color>
+    <color name="yellow_dark">#FF9800</color>
+    <color name="cabs_theme_mustard">#404040</color>
+    <color name="app_bg_with_card">#eeeeee</color>
+    <color name="divider_grey">#d4d4d4</color>
+    <color name="btnRegister">#83838c</color>
+    <color name="grey_after_alpha">#88000000</color>
+    <color name="blue">#079bd8</color>
+    <color name="blue_drak">#3F51B5</color>
+    <color name="green">#1A8B20</color>
+    <color name="colorTitleWhite">#FFFFFF</color>
+    <color name="rippleeffectcolor">#f816a463</color>
+    <color name="colorSubTitleWhite">#b795ce</color>
+    <color name="colorHorizontalDivider">#898a56ab</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="btnSignIn">#1fbad6</color>
+
+    <color name="switchTrack">#ffd600</color>
+    <color name="switchTrackDisable">#90caf9</color>
+    <color name="switchTrackActive">#1565c0</color>
+    <color name="switchTrackNormal">#90caf9</color>
+    <color name="switchThumbBgActive">#1b5e20</color>
+    <color name="switchThumbActive">#ad1457</color>
+    <color name="switchThumbkNormal">#64b5f6</color>
+</resources>

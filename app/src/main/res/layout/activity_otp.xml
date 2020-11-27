@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cab_background"
+    tools:context=".OTPActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/otpMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/txt_otp_message"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            tools:targetApi="jelly_bean" />
+
+        <LinearLayout
+            android:id="@+id/edtLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/otpMessage"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="70dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtOtp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/black"
+                android:fontFamily="@font/roboto_light"
+                android:hint="@string/txt_otp"
+                android:inputType="number"
+                android:maxLength="6"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:targetApi="lollipop" />
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="timer"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp">
+
+            <Button
+                android:id="@+id/btnOtp"
+                style="@style/Widget.ButtonCab"
+                android:layout_width="match_parent"
+                android:background="@drawable/buttoncab"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/btn_otp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:targetApi="jelly_bean" />
+
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/spin_kit"
+                style="@style/SpinKitView.ThreeBounce"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:visibility="gone"
+                app:SpinKit_Color="@color/white" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtResend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="end"
+            android:text="@string/txt_resend_otp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            tools:targetApi="jelly_bean" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:id="@+id/root_layout"
+    tools:context=".OTPActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:transitionName="imageTransition" />
+
+        <TextView
+            android:id="@+id/phoneMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/txt_phone_message"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            tools:targetApi="jelly_bean" />
+
+        <LinearLayout
+            android:id="@+id/edtLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="70dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/white"
+                android:fontFamily="@font/roboto_light"
+                android:hint="@string/txt_forgot"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnForget"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/buttoncab"
+                style="@style/Widget.ButtonCab"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/btn_forgot"
+                android:textSize="15sp"
+                tools:targetApi="jelly_bean" />
+
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/spin_kit"
+                style="@style/SpinKitView.ThreeBounce"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="60dp"
+                android:visibility="visible"
+                app:SpinKit_Color="@color/white" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txtBackLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/txt_back_login"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            tools:targetApi="jelly_bean" />
+    </LinearLayout>
+</RelativeLayout>
